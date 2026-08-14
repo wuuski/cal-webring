@@ -78,15 +78,22 @@ export default function RingGraph() {
       .attr("font-size", 11)
       .attr("fill", "#0d1b2a");
 
-    simulation.on("tick", () => {
-      link
-        .attr("x1", (d: any) => d.source.x)
-        .attr("y1", (d: any) => d.source.y)
-        .attr("x2", (d: any) => d.target.x)
-        .attr("y2", (d: any) => d.target.y);
+      const padding = 30;
 
-      node.attr("transform", (d: any) => `translate(${d.x}, ${d.y})`);
-    });
+      simulation.on("tick", () => {
+        nodes.forEach((d: any) => {
+          d.x = Math.max(padding, Math.min(width - padding, d.x));
+          d.y = Math.max(padding, Math.min(height - padding, d.y));
+        });
+      
+        link
+          .attr("x1", (d: any) => d.source.x)
+          .attr("y1", (d: any) => d.source.y)
+          .attr("x2", (d: any) => d.target.x)
+          .attr("y2", (d: any) => d.target.y);
+      
+        node.attr("transform", (d: any) => `translate(${d.x}, ${d.y})`);
+      });
 
     return () => {
       simulation.stop();
