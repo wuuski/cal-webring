@@ -66,4 +66,10 @@ export type Member = {
         year: "2025",
         major: "Computer Science",
     },
+    {
+        name: "Cadence Loh",
+        url: "https://ceggyweggy.github.io",
+        year: "2029",
+        major: "Computer Science, Applied Mathematics",
+    },
   ];
