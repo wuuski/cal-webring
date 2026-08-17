@@ -72,4 +72,10 @@ export type Member = {
         year: "2029",
         major: "Computer Science, Applied Mathematics",
     },
+    {
+        name: "Sarah Wang",
+        url: "https://sarahwang07.github.io",
+        year: "2029",
+        major: "Statistics, Data Science",
+    },
   ];
