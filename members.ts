@@ -78,4 +78,10 @@ export type Member = {
         year: "2029",
         major: "Statistics, Data Science",
     },
+    {
+        name: "Evan Luo",
+        url: "https://dr4nx.github.io/",
+        year: "2027",
+        major: "Electrical Engineering and Computer Sciences",
+    },
   ];
