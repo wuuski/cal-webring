@@ -84,4 +84,10 @@ export type Member = {
         year: "2027",
         major: "Electrical Engineering and Computer Sciences",
     },
+    {
+        name: "Aathreya Kadambi",
+        url: "https://aathreyakadambi.is-cool.dev",
+        year: "2026",
+        major: "Applied Math, Computer Science",
+    },
   ];
