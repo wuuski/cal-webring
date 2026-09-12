@@ -95,7 +95,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="hidden lg:block fixed top-50 right-8 w-[350px]">
+      <div className="hidden lg:block fixed top-90 right-10 w-[300px]">
         <RingGraph />
       </div>
 
