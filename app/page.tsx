@@ -4,8 +4,8 @@ import RingGraph from "./RingGraph";
 export default function HomePage() {
   return (
     <main>
-      <div className="relative max-w-2xl mx-auto p-8">
-      <div className="sticky top-0 z-20 pointer-events-none">
+      <div className="relative max-w-4xl mx-auto p-8 min-h-screen">
+  <div className="sticky top-0 z-20 pointer-events-none">
   <div
     className="absolute left-0 right-0 top-[220px] h-32 z-0"
     style={{
@@ -13,24 +13,31 @@ export default function HomePage() {
     }}
     
   />
-  <div
-  className="absolute left-0 right-0 top-0 h-[220px] z-0"
-  style={{ backgroundColor: "#fdf6e3" }}
-/>
-  <img
-    src="/gate.png"
-    alt=""
-    className="relative z-10 w-full max-w-2xl mx-auto block"
-  />
-</div>
+    <div
+      className="absolute left-0 right-0 top-0 h-[220px] z-0"
+      style={{ backgroundColor: "#fdf6e3" }}
+    />
+    <img
+      src="/gate.png"
+      alt=""
+      className="relative z-10 w-full max-w-3xl mx-auto block"
+    />
+  </div>
+  
 
-        <div className="relative z-10 -mt-[380px] max-w-md mx-auto text-center px-16">
+        <div className="relative z-10 -mt-[450px] max-w-xl mx-auto text-center px-16">
           <h1 className="text-3xl font-bold text-[#003262] mb-2">
             UC Berkeley Webring
           </h1>
+          <p> 
+            ---
+          </p>
           <p className="text-sm text-gray-700">
             A webring connecting the personal websites and portfolios of
             Berkeley students, alumni, and faculty.
+          </p>
+          <p> 
+            ---
           </p>
           <p className="text-base text-gray-600 mb-8 max-w-xl">
             A webring is an old-school way of connecting personal websites —
