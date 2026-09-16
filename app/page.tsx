@@ -5,27 +5,25 @@ export default function HomePage() {
   return (
     <main>
       <div className="relative max-w-4xl mx-auto p-8 min-h-screen">
-  <div className="sticky top-0 z-20 pointer-events-none">
+      <div className="hidden md:block sticky top-0 z-20 pointer-events-none">
   <div
     className="absolute left-0 right-0 top-[220px] h-32 z-0"
     style={{
       background: "linear-gradient(to bottom, #fdf6e3 0%, transparent 100%)",
     }}
-    
   />
-    <div
-      className="absolute left-0 right-0 top-0 h-[220px] z-0"
-      style={{ backgroundColor: "#fdf6e3" }}
-    />
-    <img
-      src="/gate.png"
-      alt=""
-      className="relative z-10 w-full max-w-3xl mx-auto block"
-    />
-  </div>
-  
+  <div
+    className="absolute left-0 right-0 top-0 h-[220px] z-0"
+    style={{ backgroundColor: "#fdf6e3" }}
+  />
+  <img
+    src="/gate.png"
+    alt=""
+    className="relative z-10 w-full max-w-3xl mx-auto block"
+  />
+</div>
 
-        <div className="relative z-10 -mt-[450px] max-w-xl mx-auto text-center px-16">
+<div className="relative z-10 md:-mt-[450px] max-w-xl mx-auto text-center px-6 md:px-16">
           <h1 className="text-3xl font-bold text-[#003262] mb-2">
             UC Berkeley Webring
           </h1>
