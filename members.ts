@@ -94,6 +94,12 @@ export type Member = {
         name: "Vijay Hans",
         url: "http://vijayhans.com",
         year: "2029",
-        major: "Electrical Engineering and Computer Science, Business Administration"
+        major: "Electrical Engineering and Computer Science, Business Administration",
+    },
+    {
+        name: "Nicholas 'Kinn' Perematko",
+        url: "https://kinn.dev",
+        year: "2025",
+        major: "Analytics",
     }
   ];
