@@ -101,5 +101,11 @@ export type Member = {
         url: "https://kinn.dev",
         year: "2025",
         major: "Analytics",
+    },
+    {
+        name: "Sardaana Eginova",
+        url: "https://daanaea.github.io",
+        year: "2027",
+        major: "Computer Science, Data Science",
     }
   ];
